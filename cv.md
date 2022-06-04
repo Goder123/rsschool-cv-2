@@ -26,4 +26,8 @@ return a * b
 # Experience
 * CV
 
+# Education
+* University: Astrakhan State Technical University, specialty "Physical education and sports"
+* Courses:
++ RSSchools (in progress)
 
