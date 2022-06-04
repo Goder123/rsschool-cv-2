@@ -31,3 +31,6 @@ return a * b
 * Courses:
     + RSSchools (in progress)
 
+# English
+A2(I learned English on youtube channel "English galaxy". Step by step I wanna become better.Passed the test from Epam.)
+
