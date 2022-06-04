@@ -13,4 +13,14 @@
 # About me
 My main goal is to become a good programmer. I have no experience in IT. I like learning new material. I have been looking for such free courses for a long time and now I found it.
 
+*****
+
+# Code example
+```
+function multiply (a, b) {
+return a * b
+}
+
+```
+
 
