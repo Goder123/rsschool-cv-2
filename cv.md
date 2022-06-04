@@ -29,5 +29,5 @@ return a * b
 # Education
 * University: Astrakhan State Technical University, specialty "Physical education and sports"
 * Courses:
-+ RSSchools (in progress)
+    + RSSchools (in progress)
 
