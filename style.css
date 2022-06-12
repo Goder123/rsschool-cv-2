@@ -32,6 +32,8 @@ body {
     margin-bottom: auto;
 }
 
+
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +77,7 @@ body {
     justify-content: space-around;
     width: 100%;
     border-bottom: 5px solid #00471b;
+    align-items: center;
 }
 
 .section-photo-avatar {
@@ -89,6 +92,11 @@ body {
 
 
 }
+
+.first-column {
+    width: 40%;
+}
+
 
 @media(max-width:768px) {
     .section {
@@ -124,23 +132,24 @@ body {
     font-size: 20px;
 }
 
-.nav-item a:hover{
-    color:#00471b;
+.nav-item a:hover {
+    color: #00471b;
 }
 
-.section-list{
+.section-list {
     list-style: none;
 }
 
 
 
 .section-item a {
-    text-decoration: none; 
+    text-decoration: none;
     color: #4d2323;
     transition: color 0.5s;
 }
-.section-item a:hover{
-    color:#00471b;
+
+.section-item a:hover {
+    color: #00471b;
 }
 
 .section-item {
@@ -151,20 +160,23 @@ body {
 
 
 
-.contacts-item:nth-child(4)::before{
+.contacts-item:nth-child(4)::before {
     background-image: url(assets/favicon-32x32.png);
 }
-.contacts-item:nth-child(3)::before{
+
+.contacts-item:nth-child(3)::before {
     background-image: url(assets/discord-xxl.png);
 }
-.contacts-item:nth-child(2)::before{
+
+.contacts-item:nth-child(2)::before {
     background-image: url(assets/Green_Phone_Font-Awesome.svg.png);
 }
-.contacts-item:nth-child(1)::before{
+
+.contacts-item:nth-child(1)::before {
     background-image: url(assets/pngaaa.com-203071.png);
 }
 
-.contacts-item::before{
+.contacts-item::before {
     content: "";
     position: absolute;
     top: -2px;
@@ -174,14 +186,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
 
 .footer {
     background-color: #eee1c6;
@@ -204,4 +208,14 @@ body {
     align-items: center;
     margin: 0 auto;
     color: #fff;
+    text-decoration: none;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #4d2323;
+}
+
+.footer-container a:hover {
+    color: #00471b;
 }
