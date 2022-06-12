@@ -157,6 +157,15 @@ body {
 
 }
 
+.section a{
+    text-decoration: none;
+    color:#c2ab7c;
+}
+
+.section a:hover{
+    color: #00471b;
+}
+
 
 
 
